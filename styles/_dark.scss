@@ -1,0 +1,32 @@
+@import "./base";
+
+.app.dark{
+    background-color: $darkPrimaryColor;
+    .text{
+        color: white;
+    }
+    .backgroundDarkest{
+        background-color: $darkPrimaryColor;
+    }
+    .backgroundDarker{
+        background-color: $darkPrimaryColor2;
+    }
+    .backgroundDark{
+        background-color: $darkColor1;
+    }
+    .backgroundDarklight{
+        background-color: $darkColor2;
+    }
+
+    .curves{
+        background-color: $darkPrimaryColor2 !important;
+        &:after{
+            background: $darkPrimaryColor !important;
+            box-shadow: 0 -20px 0 0 $darkPrimaryColor2 !important;
+        }
+        &:before{
+            background: $darkPrimaryColor !important;
+            box-shadow: 0 20px 0 0 $darkPrimaryColor2 !important;
+        }
+    }
+}

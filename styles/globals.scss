@@ -1,0 +1,41 @@
+@import "./base";
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    // background-color: $primaryColor;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.app{
+  display: flex;
+  align-items: center;
+  background-color: $primaryColor;
+}
+
+::-webkit-scrollbar{
+  width: 6px;
+}
+
+::-webkit-scrollbar-track{
+  background-color: $darkPrimaryColor2;
+}
+
+::-webkit-scrollbar-thumb{
+  background-color: $darkPrimaryColor2;
+  border-radius: 25px;
+}
+
+

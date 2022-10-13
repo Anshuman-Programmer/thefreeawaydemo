@@ -1,0 +1,23 @@
+.refferal{
+    flex: 5;
+    padding: 1rem 2rem;
+    border-radius: 0.5rem;
+    background: white;
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 7px 29px 0px;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+
+    h4{
+        flex: 1;
+    }
+    p{
+        flex: 1;
+    }
+    .image{
+        height: 60px;
+        object-fit: contain;
+        margin: 0 auto;
+    }
+}

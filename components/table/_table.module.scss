@@ -1,0 +1,64 @@
+@import "../../styles/base";
+
+.tableWrapper{
+    border-radius: 0.5rem;
+    margin-top: 1rem;
+    background:white;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 7px 29px 0px;
+
+    .table{ 
+
+        border-spacing: 1; 
+        border-collapse: collapse; 
+        border-radius:6px;
+        overflow:hidden;
+        width:100%;
+        border-bottom: 2px solid lightgray;
+      td,th { padding-left:8px}
+      thead{
+        border-bottom: 2px solid lightgray;
+      }
+      thead tr{ 
+        height:60px;
+        font-size:16px;
+      }
+      
+      tbody tr { height:48px;
+      }
+      
+         td,th { text-align:left;
+            padding-left: 1rem;
+        }
+    }
+
+    .bottomWrapper{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 50px;
+        gap: 20px;
+        border-top: 2px solid lightgray;
+
+
+        & > *{
+            color: $darkPrimaryColor;
+            cursor: pointer;
+        }
+
+        p{
+            height: 30px;
+            width: 30px;
+            border-radius: 50%;
+            color: white;
+            background-color: $primaryColor;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+        }
+    }
+}
+
+
+

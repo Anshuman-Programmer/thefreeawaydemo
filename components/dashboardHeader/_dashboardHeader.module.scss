@@ -1,0 +1,26 @@
+.dashboardHeader{
+
+    .dashboardHeaderWrapper{
+        display: flex;
+        align-items: center;
+        justify-content: end;
+        & > * {
+            margin-left: 1rem;
+        }
+        input{
+            padding: 0.5rem 1rem;
+            border-radius: 999rem;
+            border: none;
+            outline: none;
+            box-shadow: rgba(0, 0, 0, 0.2) 0px 7px 29px 0px;
+        }
+        .avater{
+            height: 30px;
+            width: 30px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+    }
+
+}
+
